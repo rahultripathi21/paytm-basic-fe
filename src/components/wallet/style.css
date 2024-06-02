@@ -1,0 +1,148 @@
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 0.1px solid #8080805f;
+}
+
+.dashboard-header> div:first-child{
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+.dashboard-header> div:nth-child(2){
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.dashboard-header> div:nth-child(2)> span{
+  background-color: #8080802c;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.user-balance {
+  font-size: 20px;
+  font-weight: 1000;
+  margin: 15px;
+}
+.transaction-data {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 1000;
+  margin: 15px;
+}
+
+.transaction-data input {
+  padding: 5px;
+}
+
+.transaction-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction-list div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.transaction-list div> span:nth-child(1) {
+  background-color: #8080802a;
+  font-weight: 200;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+}
+
+.transaction-list button{
+  background-color: #000000;
+  color: white;
+  padding: 7px 9px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.transaction-list button:hover {
+  background-color: rgb(52, 43, 43);
+}
+
+.transfer {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tansfer-screen {
+  border-radius: 2px;
+  box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  height: 50%;
+  width: 30%;
+}
+
+.tansfer-screen h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sub-heading {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  gap: 5px
+}
+
+.sub-heading span {
+  background-color: #16c813;
+  color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding: 12px;
+}
+
+.balance {
+  font-size: 15px;
+  margin: 10px 0px;
+  font-weight: 600;
+}
+
+.tansfer-screen input {
+  width: 100%;
+  height: 15%;
+  padding: 10px;
+  border: 0.5px solid #808080b3;
+  border-radius: 5px;
+}
+
+.tansfer-screen button {
+  width: 100%;
+  height: 15%;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #16c813;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tansfer-screen button:hover {
+  background-color: #048106;
+}

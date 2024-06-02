@@ -1,0 +1,108 @@
+.auth-screen {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth-card-signup {
+  background-color: white;
+  width: 23%;
+  height:83%;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+
+.auth-card-signin {
+  background-color: white;
+  width: 23%;
+  height:55%;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+
+
+.auth-card-signup div {
+  margin-top: 10px;
+}
+.auth-card-signin div {
+  margin-top: 10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.header header {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.header p {
+  font-size: 15px;
+  font-weight: 100;
+  color: grey;
+  padding-top: 10px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-section div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-section div div {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.input-section div input {
+  padding: 10px;
+  border-radius: 3px;
+  border: 0.2px solid grey;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.submit-btn {
+  text-align: center;
+  font-size: 12px;
+  vertical-align: middle;
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px ;
+  cursor: pointer;
+}
+
+
+.submit-btn:hover {
+  opacity: 0.7; /* Fades to 70% opacity on hover */
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 200;
+  padding: 10px;
+}
+
+.footer span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer span:hover {
+  color: grey;
+}
+
+
+
